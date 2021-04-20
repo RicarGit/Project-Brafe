@@ -209,3 +209,53 @@ h2.products-mineiro::before {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+/* SIGN IT */
+
+.sign-it {
+  background-color: #e7e4d8;
+  padding: 30px 0;
+}
+.sign-it-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sign-it-info {
+  flex: 1;
+}
+.sign-it-info h2 {
+  font-size: 2.25em;
+}
+.sign-it-info p {
+  font-size: 1.5em;
+  font-style: italic;
+}
+form {
+  display: flex;
+  flex: 1;
+}
+.sign-it-container form label {
+  display: none;
+}
+.sign-it-container form input {
+  flex: 1;
+  border: 3px solid #252525;
+  background: none;
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: Georgia, serif;
+  padding: 10px;
+}
+.sign-it-container button {
+  font-size: 1.5em;
+  padding: 10px 15px;
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  background-color: #252525;
+  color: #e7e4d8;
+  border: none;
+  cursor: pointer;
+}
