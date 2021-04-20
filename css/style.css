@@ -222,6 +222,7 @@ h2.products-mineiro::before {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .sign-it-info {
   flex: 1;
@@ -236,6 +237,7 @@ h2.products-mineiro::before {
 form {
   display: flex;
   flex: 1;
+  flex-wrap: wrap;
 }
 .sign-it-container form label {
   display: none;
@@ -258,4 +260,23 @@ form {
   color: #e7e4d8;
   border: none;
   cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #d6d3c8;
+  padding: 40px 0;
+}
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer p {
+  font-size: 1.125em;
+  line-height: 1.4em;
 }
