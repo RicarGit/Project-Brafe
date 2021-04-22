@@ -1,5 +1,9 @@
 # Advanced CSS Course from Origamid Using FlexBox!
 
-# Adding the image of the desktop version
+# Adding the picture of the desktop version
 
 ![](Brafé-FlexBox.jpg)
+
+# Adding the picture of the mobile version
+
+![](Brafé-FlexBox-Mobile.jpg)
