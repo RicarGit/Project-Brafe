@@ -41,6 +41,9 @@ body {
   font-size: 1.125em;
   color: #fff;
 }
+.menu-nav ul li a:hover {
+  color: #ac5e30;
+}
 @media (max-width: 486px) {
   .menu {
     padding: 10px 0;
@@ -204,6 +207,9 @@ h2.products-mineiro::before {
   border: 3px solid;
   margin-top: 40px;
 }
+.products-btn:hover {
+  color: #ac5e30;
+}
 @media (max-width: 639px) {
   .products {
     padding: 30px 0;
@@ -255,6 +261,9 @@ h2.products-mineiro::before {
   border:2px solid currentColor;
   text-transform: uppercase;
   font-weight: bold;
+}
+.local-item a:hover {
+  color: #ac5e30;
 }
 @media (max-width: 739px) {
   .local-item-info, .local-item-img {
